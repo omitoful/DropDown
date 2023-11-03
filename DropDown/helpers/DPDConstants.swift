@@ -31,8 +31,8 @@ internal struct DPDConstant {
 		static let TextFont = UIFont.systemFont(ofSize: 15)
 		static let BackgroundColor = UIColor(white: 0.94, alpha: 1)
 		static let SelectionBackgroundColor = UIColor(white: 0.89, alpha: 1)
-		static let SeparatorColor = UIColor.clear
-		static let CornerRadius: CGFloat = 2
+        static let SeparatorColor = UIColor.black.withAlphaComponent(0.3)
+		static let CornerRadius: CGFloat = 8
 		static let RowHeight: CGFloat = 44
 		static let HeightPadding: CGFloat = 20
 
@@ -40,8 +40,8 @@ internal struct DPDConstant {
 
 			static let Color = UIColor.darkGray
 			static let Offset = CGSize.zero
-			static let Opacity: Float = 0.4
-			static let Radius: CGFloat = 8
+			static let Opacity: Float = 0.1
+			static let Radius: CGFloat = 2
 
 		}
 
